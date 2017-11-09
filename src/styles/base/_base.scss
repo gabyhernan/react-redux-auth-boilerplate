@@ -1,0 +1,32 @@
+* { // so padding & margin get added to the specified height
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // now we are working with rem in a 10 base system
+}
+
+body {
+  color: $dark-grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  &:focus{
+    outline:0;
+  }
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+  color: pink;
+}
+

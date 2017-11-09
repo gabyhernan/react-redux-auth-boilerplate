@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  background: $button-color;
+  display: inline-block; // makes sure that the vertical margin & padding gets taken into effect
+  font-size: $font-size-large;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  color: $white;
+  font-weight: 300;
+  padding: $s-size;
+  text-decoration: none;
+  &.blue {
+    background: rgb(108,226,217);
+  }
+  &.grey {
+    background: #888888;
+  }
+}
+
+.button--link {
+    background: transparent;
+  }
